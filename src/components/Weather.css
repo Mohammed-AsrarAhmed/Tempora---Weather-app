@@ -1,0 +1,184 @@
+.weather {
+        place-self: center;
+        padding: 40px;
+        border-radius: 20px;
+        background-image: linear-gradient(135deg, #2f4681, #500ae3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 420px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .search-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        margin-bottom: 25px;
+      }
+      
+      .search-bar input {
+        flex: 1;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        padding-left: 25px;
+        color: #333;
+        background: #ebfffc;
+        font-size: 18px;
+        transition: box-shadow 0.2s;
+      }
+      
+      .search-bar input:focus {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      }
+      
+      .search-bar img {
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+        border-radius: 50%;
+        background: #ebfffc;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+      }
+      
+      .search-bar img:hover {
+        transform: scale(1.1);
+      }
+      
+      .weather-icon {
+        width: 140px;
+        margin: 20px 0;
+        animation: float 3s ease-in-out infinite;
+      }
+      
+      @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+        100% { transform: translateY(0); }
+      }
+      
+      .temperature {
+        color: #fff;
+        font-size: 72px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      
+      .location {
+        color: #f0f0f0;
+        font-size: 32px;
+        font-weight: 500;
+      }
+      
+      .weather-data {
+        width: 100%;
+        margin-top: 35px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      
+      .col {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      
+      .col img {
+        width: 30px;
+        margin-top: 6px;
+      }
+      
+      .col p {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+      }
+      
+      .col span {
+        font-size: 14px;
+        color: #ddd;
+        display: block;
+      }
+      
+      /* Responsive */
+      @media (max-width: 480px) {
+        .weather {
+          padding: 30px 20px;
+          max-width: 95%;
+        }
+      
+        .temperature {
+          font-size: 60px;
+        }
+      
+        .location {
+          font-size: 28px;
+        }
+      
+        .col p {
+          font-size: 18px;
+        }
+        .greeting {
+                font-size: 22px;
+                font-weight: 500;
+                color: #fff;
+                margin-top: 10px;
+                text-align: center;
+              }
+              
+        .feels-like {
+                font-size: 16px;
+                color: #f0f0f0;
+                margin-bottom: 15px;
+              }
+
+              .history {
+                width: 100%;
+                margin-top: 30px;
+                text-align: left;
+                color: #fff;
+              }
+              
+        .history h3 {
+                margin-bottom: 10px;
+                font-size: 20px;
+                color: #f0f0f0;
+              }
+              
+         .history-list {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+              }
+              
+         .history-item {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 12px;
+                padding: 10px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                backdrop-filter: blur(6px);
+                transition: background 0.2s;
+              }
+              
+        .history-item:hover {
+                background: rgba(255, 255, 255, 0.2);
+              }
+              
+        .history-item img {
+                width: 32px;
+                height: 32px;
+              }
+              
+              
+      }
+      
