@@ -4,10 +4,11 @@ A sleek and modern weather application built with React that allows users to sea
 
 To get your weather app up and running locally, follow these steps:
 
-git clone https://github.com/your-username/weather-app
-cd weather-app
-npm install
-npm run dev
+>git clone https://github.com/your-username/weather-app
+>cd weather-app
+>npm install
+>npm run dev
 
 Make sure to add your OpenWeatherMap API key to a .env file as:
-VITE_API=your_api_key_here
+
+>VITE_API=your_api_key_here
