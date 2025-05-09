@@ -1,4 +1,4 @@
-# Tempora---Weather-app
+# Tempora-Weather app
 
 A sleek and modern weather application built with React that allows users to search for real-time weather information by city name. The app fetches weather data using the OpenWeatherMap API and displays key metrics such as temperature, humidity, and wind speed, along with an appropriate weather icon. Users can also view a history of their previous weather searches.
 
